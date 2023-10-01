@@ -1,0 +1,119 @@
+/* Styl ogólny strony */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek strony */
+header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Nawigacja */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Nagłówek sekcji */
+.section-header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* Tekst główny */
+.main-content {
+  padding: 20px;
+  line-height: 1.6;
+  text-align:justify;
+  
+}
+
+/* Ilustracje */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Stopka strony */
+footer {
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Linki w stopce */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Przykład stylizacji przycisków */
+.button {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+#first-text-object {
+  border-left: 22px solid #4CAF50;
+  padding: 0.1em;
+}
+
+
+p {
+  margin: -0.7em 0;
+}
